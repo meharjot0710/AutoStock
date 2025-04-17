@@ -8,7 +8,6 @@ const Sidebar = () => {
   const navItems = [
     { name: 'Dashboard', path: '/' },
     { name: 'Forecast', path: '/forecast' },
-    { name: 'Inventory', path: '/inventory' },
     { name: 'Assistant', path: '/assistant' },
   ];
 

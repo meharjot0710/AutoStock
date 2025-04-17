@@ -1,0 +1,13 @@
+.in-query{
+    border: 0px;
+    border-bottom: 1px solid #000;
+    width: 70vw;
+    height: 25px;
+    background-color: transparent;
+}
+.but-query{
+    height: 40px;
+}
+.con{
+    margin-left: 5%;
+}

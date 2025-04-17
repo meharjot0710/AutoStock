@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 import Dashboard from './pages/Dashboard';
-import Inventory from './pages/Inventory';
 import Forecast from './pages/Forecast';
 import AskAssistant from './pages/AskAssistant';
 import './App.css';
@@ -17,7 +16,6 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Dashboard />} />
-            <Route path="/inventory" element={<Inventory />} />
             <Route path="/forecast" element={<Forecast />} />
             <Route path="/assistant" element={<AskAssistant />} />
           </Routes>
